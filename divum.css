@@ -1,0 +1,289 @@
+
+#top{
+    background-color: #3C4AED;
+    height: 120rem;
+    border: 0;
+    width: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#logo{
+    padding-left: 400px;
+    padding-top: 20px;
+    height: auto;
+    width: 80px;
+}
+
+body{
+    margin: 0;
+}
+
+#list{
+    list-style-type: none;
+    animation: forwards;
+}
+
+nav{
+    float: right;
+    display: inline;
+    padding-right: 300px;
+    padding-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+li{
+    display: inline;
+    margin-left: 16px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    font-size: small;
+    text-decoration: underline;
+}
+
+#dropdown{
+    font-size: 14px;
+    font-weight: bold;
+    background: none;
+    color: white;
+    outline: 0;
+    border: 0;
+    position: hidden;
+    overflow: auto;
+    cursor: pointer;
+}
+
+#drop1{
+    background: #3C4AED;
+    color: white;
+}
+
+#drop2{
+    background: #3C4AED;
+    color: white;
+}
+
+#drop3{
+    background: #3C4AED;
+    color: white;
+}
+
+#drop4{
+    background: #3C4AED;
+    color: white;
+}
+
+#drop5{
+    background: #3C4AED;
+    color: white;
+}
+
+#drop6{
+    background: #3C4AED;
+    color: white;
+}
+
+#butt{
+    background: #3C4AED;
+    color: white;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    cursor: pointer;
+    text-decoration: solid;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#butt:hover{
+    background-color: white;
+    color: #3C4AED;
+    transition: 0.7s;
+    
+}
+
+#heading1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin: 0.67em;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.arrowbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+
+.arrowbtn a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #3C4AED;
+    display: block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.arrowbtn a span{
+    color: black;
+    line-height: 39px;
+    font-size: 25px;
+}
+
+#seconddiv{
+    height: 450px;
+    background-color: white;
+}
+
+#wepower{
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #434242;
+}
+
+#welove{
+    margin-top: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #949494;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+#contactus{
+    color: #3C4AED;
+    padding: 16px 25px;
+    border: 1px none #096ad0;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
+    transition: all 200ms ease;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#contactus:hover{
+    background-color: #3C4AED;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: solid;
+    color: #565656;
+}
+
+.welcome{
+    font-family: Montserrat, sans-serif;
+    color: #333;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.links{
+    color: #3C4AED;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.whatsapp{
+    top: 5%;
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:90px;
+    right:23px;
+    text-align:center;
+    font-size:30px;
+    align-content: center ;
+    
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+.welcomepic{
+    width: auto;
+    height: 450px;
+}
+
+#technologypic{
+    width: auto;
+    height: 310px;
+}
+
+.row1{
+    background-color: white;
+    height: 550px;
+}
+
+#rowtechnology{
+    background-color: white;
+    height: 400px;
+}
+
+.columnleft{
+    padding-left: 300px;
+    float: left;
+    display: inline;
+}
+
+.columnright{
+    float: right;
+    display: inline;
+    padding-right: 280px;
+}
+
+#solutiontxt{
+    float: right;
+    display: inline;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+#build{
+    height: auto;
+    width: 1600px;
+}
