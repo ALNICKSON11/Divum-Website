@@ -7,8 +7,52 @@
     justify-content: center;
     padding: 1.5rem 15rem;
     gap: 30rem;
-    
+
 }
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:90px;
+    right:23px;
+    text-align:center;
+    font-size:30px;
+    align-content: center ;
+}
+
+/* .my-float{
+    margin-top:16px;
+} */
+
+
+.arrowbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+
+.arrowbtn a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #3C4AED;
+    display: block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.arrowbtn a span{
+    color: black;
+    line-height: 39px;
+    font-size: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 #logo{
     height: auto;
@@ -29,7 +73,7 @@
     animation: forwards;
 }
 
-li{
+.firstlist{
     display: inline;
     padding: 0rem 1rem ;
 }
@@ -50,7 +94,7 @@ li{
     color: white;
 }
 
-li:hover{
+.firstlist:hover{
     text-decoration: solid;
     text-decoration: underline;
 }
@@ -155,7 +199,7 @@ li:hover{
     font-weight: 900;
 }
 
-p{
+.rowpara{
     padding: 1rem 0rem 1rem 0rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -209,3 +253,126 @@ p{
     color: #3C4AED;
     transition: 0.3s;
 }
+
+#fourgrid{
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 60rem;
+    box-shadow: 10px 0 80px 0 rgb(31 44 61 / 10%);
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+#leftdivofgridheading{
+    /* max-width: 330px; */
+    /* margin-right: 100px; */
+    /* text-align: right; */
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px; 
+    line-height: 1.1;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+#leftdivofgrid{
+    text-align: end;
+    padding: 0rem 0rem 0rem 25rem;
+}
+
+#rightdivofgrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 6rem;
+    padding-right: 25rem;
+}
+
+.rightdivofgridheading{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.rightdivofgridimg{
+    width: 25%;
+    height: auto;
+}
+
+.rightdivofgridpara{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: solid;
+    color: #565656;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#clientele{
+    padding-top: 10rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #333;
+    
+
+}
+
+#global{
+    line-height: 1.15;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 920;
+    padding-bottom: 2rem;
+}
+
+#navigation2{
+    outline: none;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    margin: 5px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#list2{
+    list-style-type: none;
+    animation: forwards;
+}
+
+.secondlist{
+    display: inline;
+    padding: 0rem 1rem ;
+}
+
+.secondlist:hover{
+    color:#3C4AED;
+    text-decoration: underline;
+}
+
+
+
+/* grid-template-columns: auto auto; */
+/* width: ; */    
+/* margin grid-auto-flow: ; */
+/* display grid; */
