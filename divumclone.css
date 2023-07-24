@@ -114,10 +114,12 @@ html{
     padding: 4rem;
 }
 
-#video{
-    padding: 2rem;
+#firstVideo{
+    display: flex;
     justify-content: center;
 }
+
+
 
 .mainwhite{
     background-color: white;
@@ -368,7 +370,22 @@ html{
 .secondlist:hover{
     color:#3C4AED;
     text-decoration: underline;
+    font-size: large;
 }
+
+#slidingImage{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#client-img{
+    width: 40%;
+}
+
+
+
+
 
 
 
